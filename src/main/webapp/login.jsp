@@ -8,9 +8,25 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Welcome to the Dota World</title>
+    <link rel="stylesheet" href="statics/css/common.css">
+    <link rel="stylesheet" href="statics/css/login.css">
 </head>
 <body>
+<main>
+    <header>
+        <div class="top">
+            <img src="statics/img/dota2_logo_horiz.png" alt="" class="img_logo">
+        </div>
+        <div class="homepage_section">
+            <div class="homepage">
+                <video autoplay="" preload="auto" loop="" playsinline="">
+                    <source type="video/mp4" src="statics/video/dota_montage_02.mp4">
+                </video>
+            </div>
+        </div>
 
+    </header>
+</main>
 </body>
 </html>
