@@ -11,36 +11,56 @@
     <title>Welcome to the Dota World</title>
     <link rel="stylesheet" href="statics/css/common.css">
     <link rel="stylesheet" href="statics/css/login.css">
+    <script src="statics/js/config.js" type="text/javascript"></script>
+    <script src="statics/js/util.js" type="text/javascript"></script>
 </head>
+
 <body>
+
 <main>
     <header>
-        <div class="top">
-            <img src="statics/img/dota2_logo_horiz.png" alt="" class="img_logo">
-        </div>
+        <nav>
+            <div class="top">
+                <img src="statics/img/dota2_logo_horiz.png" alt="" class="img_logo">
+            </div>
+            <div class="top2"></div>
+
+        </nav>
+
         <div class="homepage">
             <div class="video">
-                <video muted="muted" autoplay="autoplay" preload="auto" loop="️" playsinline>
+                <video muted="muted" autoplay="" preload="auto" loop="" playsinline="">
                     <source type="video/mp4" src="statics/video/dota_montage_02.mp4">
                 </video>
             </div>
         </div>
-        <section>
-            <div class="form">
-                <form action="">
-                    <input type="text" /> <br>
-                    <input type="password"> <br>
-                    <input type="checkbox" /> <br>
-                    <input type="button" />
-                </form>
+        <div class="QuoteContainer">
+            <div>
+                <div class="QuoteText">“一款现代的多人游戏杰作”</div>
+                <div class="QuoteCredit">-《Destructoid》</div>
             </div>
-        </section>
-    </header>
-    <footer>
-        <div>
-
+            <div class="HorizBar"></div>
+            <div class="login">
+                <div>用户登陆</div>
+                <div id="tabcon">
+                    <div class="box show">
+                        <form action="user" method="POST" id="loginForm">
+                            <input class="user" id="userName" name="userName" type="text" value="" />
+                            <input type="password" class="pwd" id="userPwd" name="userPwd" value=""/> <br />
+                            <input name="rem" type="checkbox" value="1" class="inputcheckbox"/> <label>记住我</label>&nbsp;&nbsp;
+                            <span id="msg" style="color: red;font-size: 12px;"></span><br /><br />
+                            <input type="button" class="log" value="登 陆" onclick="checkLogin();"/>&nbsp;&nbsp;&nbsp;<input type="reset" value="取 消" class="reg">
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+        <div class="BottomFade"></div>
+    </header>
 </main>
+
+
 </body>
+
+
 </html>

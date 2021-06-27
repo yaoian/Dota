@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/config.js"></script>
+    <script src="js/util.js"></script>
+</head>
+<body>
+    <div class="box show">
+        <form action="user" method="POST" id="loginForm">
+            <input type="text" class="user" id="userName" name="userName1" value=""/> <br />
+            <input type="password" class="pwd" id="userPwd" name="userPwd1" value=""/> <br />
+            <input name="rem" type="checkbox" value="1" class="inputcheckbox"/> <label>记住我</label>&nbsp;&nbsp;
+            <span id="msg" style="color: red;font-size: 12px;"></span><br /><br />
+            <input type="button" class="log" value="登 陆" onclick="checkLogin();"/>&nbsp;&nbsp;&nbsp;<input type="reset" value="取 消" class="reg">
+        </form>
+    </div>
+</body>
+</html>
