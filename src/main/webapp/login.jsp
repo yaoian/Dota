@@ -11,6 +11,7 @@
     <title>Welcome to the Dota World</title>
     <link rel="stylesheet" href="statics/css/common.css">
     <link rel="stylesheet" href="statics/css/login.css">
+    <script src="statics/js/jquery-3.6.0.js" type="text/javascript"></script>
     <script src="statics/js/config.js" type="text/javascript"></script>
     <script src="statics/js/util.js" type="text/javascript"></script>
 </head>
