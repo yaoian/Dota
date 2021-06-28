@@ -158,5 +158,6 @@ input {
     z-index: 9999;
 }
 .login {
-    margin-top: 10px;
+    margin-top: -300px;
+    margin-left: 40px;
 }
