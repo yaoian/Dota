@@ -27,7 +27,6 @@
             <div class="top2"></div>
 
         </nav>
-
         <div class="homepage">
             <div class="video">
                 <video muted1 autoplay="" preload="auto" loop="" playsinline="">

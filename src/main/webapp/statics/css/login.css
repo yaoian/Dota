@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     opacity: .8;
-    margin-right:40px
+    margin-right:40px;
 }
 .img_logo:hover {
     opacity: 1;
@@ -26,12 +26,11 @@ video {
 }
 .top {
     top: 0;
-    position: absolute;
     z-index: 9999;
     margin-left: 10%;
     text-align: center;
     background-color: transparent;
-    
+    position: fixed;
 }
 .homepage {
     width: 100%;
@@ -64,7 +63,7 @@ video {
 }
 .QuoteContainer {
     z-index: 9999;
-    margin-top: -350px;
+
     height: 100%;
     width: fit-content;
     max-width: 60%;
@@ -73,7 +72,7 @@ video {
     flex-direction: column;
     justify-content: center;
     align-content: flex-end;
-    pointer-events:auto
+    background: url("/statics/img/background4.png");
 }
 .QuoteText {
     font-size: 60px;
@@ -158,6 +157,5 @@ input {
     z-index: 9999;
 }
 .login {
-    margin-top: -300px;
-    margin-left: 40px;
+
 }
