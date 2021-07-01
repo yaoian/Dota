@@ -10,8 +10,8 @@
 <head>
     <title>Welcome to the Dota World</title>
 
-    <link rel="stylesheet" href="statics/css/login.css">
-    <link rel="stylesheet" href="statics/css/bootstrap.min1.css">
+    <link rel="stylesheet" href="statics/css/signin.css">
+    <link rel="stylesheet" href="statics/css/bootstrap.min.css">
 </head>
 
 <body>
