@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 public class Dbutil {
 
     String url = "jdbc:mysql://localhost:3306/sc?"
-            + "user=root&password=19980309&useUnicode=true&characterEncoding=UTF8";
+            + "user=root&password=passwd&useUnicode=true&characterEncoding=UTF8";
 
     private String jdbcName="com.mysql.cj.jdbc.Driver";
 
